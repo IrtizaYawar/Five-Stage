@@ -1,0 +1,40 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir\\top_tester_file\\top.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~top|InstMem",
+    "duplicate":"~top|top/datapa:Datapath/im:InstMem",
+    "index":0.1111111111111111
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~top|syncmem",
+    "duplicate":"~top|top/sync:InstMem",
+    "index":0.8888888888888888
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"top.InstMem.imem",
+    "fileName":"/Users/Saffy Yawar/OneDrive/Documents/single_cycle/src/main/ins.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"sync"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"top.InstMem.imem",
+    "fileName":"C:/Users/Saffy Yawar/Scala-Chisel-Learning-Journey/src/main/scala/gcd/inMem.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"imem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir\\top_tester_file"
+  }
+]

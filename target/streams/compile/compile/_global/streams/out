@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Saffy Yawar\OneDrive\Documents\single_cycle\src\main\scala\Datapath.scala:14:7: not found: value Donttouch[0m
+[0m[[0m[31merror[0m] [0m[0m      Donttouch(pc)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

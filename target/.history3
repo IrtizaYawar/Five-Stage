@@ -1,0 +1,11 @@
+1703846809930:testOnly single_cycle.Datapathtester
+1703848207326:testOnly single_cycle.Datapathtester -- -DwritVcd=1
+1703848515424:testOnly single_cycle.Datapathtester -- -DwriteVcd=1
+1703850789379:testOnly single_cycle.toptester -- -DwriteVcd=1
+1704458261560:echo "# Five-Stage" >> README.md
+1704458261803:git init
+1704458261999:git add README.md
+1704458262186:git commit -m "first commit"
+1704458262345:git branch -M main
+1704458262548:git remote add origin https://github.com/IrtizaYawar/Five-Stage.git
+1704458298934:exit
