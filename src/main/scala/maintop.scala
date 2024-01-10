@@ -3,9 +3,11 @@ package single_cycle
 import chisel3._
 import chisel3.util._
 
-class top extends Module {
+class maintop extends Module {
   val io = IO(new Bundle {
       val out = Output (SInt(32.W))
+      val insin = Input(UInt(32.W))
+      val pcout = Output(UInt(32.W))
 
   })
 
@@ -14,7 +16,9 @@ class top extends Module {
   val Execute = Module (new execute)
   val Memory = Module(new memory)
   val writeback = Module(new writeback)
-  
+
+  fetch.io.inst :=io.insin
+  io.pcout:=0.U
   //fetch to decode
   val ifidins = Reg(UInt(32.W))
   ifidins:=fetch.io.instruction
@@ -28,11 +32,11 @@ class top extends Module {
   ifidpc4 :=fetch.io.pc4_out
   decode.io.pc4_in :=ifidpc4
 
-  fetch.io.pcsel  := 0.B  //
+  fetch.io.pcsel  := 0.B  
 
-  decode.io.btake  := Execute.io.br_taken  //
+  decode.io.btake  := Execute.io.br_taken  
   
-  decode.io.RD := Execute.io.out  //
+  decode.io.RD := Execute.io.out  
 
   
   
@@ -226,25 +230,4 @@ decode.io.RD := writeback.io.RD
 
 io.out := Execute.io.out.asSInt
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
 

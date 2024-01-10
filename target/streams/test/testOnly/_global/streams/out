@@ -1,10 +1,40 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(single_cycle.toptester, org.scalatest.tools.Framework$$anon$1@eade91, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(single_cycle.toptester, org.scalatest.tools.Framework$$anon$1@132f4c9, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mtoptester:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- top tester file[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 191 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- toptop tester file *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.transforms.CheckCombLoops$CombLoopException: : [module maintop] Combinational loop detected:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.io_RD[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.reg.io_rd	 @[decode.scala 75:14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.reg._T	 @[registerfile1.scala 21:22][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.reg._T_1	 @[registerfile1.scala 21:13][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.reg._GEN_6	 @[registerfile1.scala 21:30 registerfile1.scala 23:15 registerfile1.scala 26:15][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.reg.io_rs1out	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.io_RS1	 @[decode.scala 81:11][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.io_RS1	 @[maintop.scala 133:18][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute._alu_io_in_A_T_3	 @[execute.scala 56:19][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.alu.io_in_A	 @[execute.scala 56:14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.alu._io_out_T	 @[ALU.scala 32:25][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.alu._io_out_T_1	 @[ALU.scala 32:25][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.alu._GEN_9	 @[Conditional.scala 40:58 ALU.scala 32:14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.alu.io_out	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Execute.io_out	 @[execute.scala 66:10][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.io_out	 @[maintop.scala 143:18][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem.io_address	 @[memory.scala 37:23][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem._T_26	 @[Datamemory.scala 146:20][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem._T_27	 @[Datamemory.scala 146:26][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem._GEN_109	 @[Datamemory.scala 146:34 Datamemory.scala 147:13][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem._GEN_116	 @[Datamemory.scala 145:23][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.dmem.io_Dout	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.Memory.io_Dout	 @[memory.scala 39:15][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.writeback.io_Dout	 @[maintop.scala 196:21][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.writeback._GEN_2	 @[wrback.scala 21:8 wrback.scala 22:14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.writeback.io_RD	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mmaintop.decode.io_RD	 @[maintop.scala 227:14][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 34 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	single_cycle.toptester[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	single_cycle.toptester[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m

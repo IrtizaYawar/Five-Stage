@@ -9,3 +9,5 @@
 1704458262345:git branch -M main
 1704458262548:git remote add origin https://github.com/IrtizaYawar/Five-Stage.git
 1704458298934:exit
+1704461544191:testOnly single_cycle.toptester -- -DwriteVcd=1
+1704886444966:testOnly single_cycle.toptester

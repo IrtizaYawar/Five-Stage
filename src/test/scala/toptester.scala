@@ -7,7 +7,7 @@ import chisel3._
 
  
  class toptester extends FreeSpec with ChiselScalatestTester{
-    "top tester file"in{
+    "toptop tester file"in{
         test(new top) { a => 
             a.clock.step(200)
             a.io.out.expect(0.U)

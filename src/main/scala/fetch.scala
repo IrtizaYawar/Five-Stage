@@ -10,6 +10,7 @@ class Fetch extends Module {
     val instruction = Output(UInt(32.W))
     val address_out = Output(UInt(32.W))
     val pc4_out = Output(UInt(32.W))
+    val inst = Input(UInt(32.W))
     
   })
   val inmem = Module(new InstMem("C:/Users/Saffy Yawar/Scala-Chisel-Learning-Journey/src/main/scala/gcd/inMem.txt"))

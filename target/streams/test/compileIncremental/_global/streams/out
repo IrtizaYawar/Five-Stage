@@ -2,13 +2,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 3 products, 9 sources, 5 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/Pctester.scala, ${BASE}/src/test/scala/toptester.scala, ${BASE}/src/test/scala/datamemtester.scala, ${BASE}/src/test/scala/CUtester.scala, ${BASE}/src/test/scala/ALUtester.scala, ${BASE}/src/test/scala/regtestertester.scala, ${BASE}/src/test/scala/dmemtester.scala, ${BASE}/src/test/scala/DatapathTester.scala, ${BASE}/src/test/scala/IMtestertester.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(single_cycle.Datapath,ModifiedNames(changes = UsedName(pc,[Default]), UsedName(pc_r,[Default])))))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe single_cycle.Datapath has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(pc,[Default]), UsedName(pc_r,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) single_cycle.Datapath: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) single_cycle.Datapath.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of single_cycle.Datapathtester. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
